@@ -27,8 +27,7 @@ def donuts(count):
     msg = 'Number of donuts:'
     if(count < 10):
         return ' '.join([msg , str(count)])
-    else:
-        return ' '.join([msg , 'many'])
+    return ' '.join([msg , 'many'])
 
 
 # B. both_ends
@@ -39,8 +38,7 @@ def donuts(count):
 def both_ends(s):
     if(len(s) < 2):
         return ''
-    else:
-        return ''.join([s[:2] , s[-2:]])
+    return ''.join([s[:2] , s[-2:]])
 
 
 # C. fix_start
